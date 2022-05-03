@@ -32,7 +32,7 @@ Scanner scan = new Scanner(System.in);
 Create and call the rollDice() function:
 
 ```java
-public static int rollDice() {
+        public static int rollDice() {
         double randomNumber = Math.random() * 6;
         randomNumber += 1;
         return (int)randomNumber;
@@ -67,4 +67,14 @@ Write 2 if-statements to verify that the numbers entered by the user are between
             System.out.println("Numbers cannot be greater than 6. Shutting game down!");
             System.exit(0);
         }
+```
+
+## Step 7:
+
+Store the sums of the diceRoll and the user's inputs into their respective variables. Then print out the results in the form of a sentence:
+
+```java
+        int sumOfNumbers = num1 + num2 + num3;
+        int sumOfRolls = roll1 + roll2 + roll3;
+        System.out.println("Dice sum = " + sumOfRolls + ". Your number sum = " + sumOfNumbers);
 ```
