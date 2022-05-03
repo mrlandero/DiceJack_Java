@@ -53,3 +53,18 @@ System.out.println("Enter 3 numbers between 1 and 6");
         int num2 = scan.nextInt();
         int num3 = scan.nextInt();
 ```
+
+## Step 6:
+
+Write 2 if-statements to verify that the numbers entered by the user are between 1-6. If any number does not meet these requirements, we shut down the program:
+
+```java
+        if (num1 < 1 || num2 < 1 || num3 < 1) {
+            System.out.println("Numbers cannot be less than 1. Shutting the game down!");
+            System.exit(0);
+        }
+        if (num1 > 6 || num2 > 6 || num3 > 6) {
+            System.out.println("Numbers cannot be greater than 6. Shutting game down!");
+            System.exit(0);
+        }
+```
