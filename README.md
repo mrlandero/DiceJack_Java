@@ -9,3 +9,12 @@ Import **Scanner**:
 import java.util.Scanner;
 ```
 
+## Step 2:
+
+Create the DiceJack class:
+
+```java
+public class DiceJack {
+    public static void main(String[] args) {
+    }
+```
