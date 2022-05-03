@@ -42,3 +42,14 @@ public static int rollDice() {
         int roll2 = rollDice();
         int roll3 = rollDice();
 ```
+
+## Sep 5: 
+
+Ask the user to enter 3 values between 1 and 6. Then use **Scanner** to receive their input:
+
+```java
+System.out.println("Enter 3 numbers between 1 and 6");
+        int num1 = scan.nextInt();
+        int num2 = scan.nextInt();
+        int num3 = scan.nextInt();
+```
