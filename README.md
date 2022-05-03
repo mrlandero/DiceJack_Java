@@ -26,3 +26,19 @@ Instantiate the new **Scanner** instance:
 ```java
 Scanner scan = new Scanner(System.in);
 ```
+
+## Step 4:
+
+Create and call the rollDice() function:
+
+```java
+public static int rollDice() {
+        double randomNumber = Math.random() * 6;
+        randomNumber += 1;
+        return (int)randomNumber;
+    }
+
+        int roll1 = rollDice();
+        int roll2 = rollDice();
+        int roll3 = rollDice();
+```
