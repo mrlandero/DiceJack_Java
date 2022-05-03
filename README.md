@@ -100,3 +100,11 @@ Write an if-else statement to display to the user whether they won or lost:
             System.out.println("Sorry! You lose!");
         }
 ```
+
+## Step 10:
+
+Close the **Scanner** instance:
+
+```java
+scan.close();
+```
