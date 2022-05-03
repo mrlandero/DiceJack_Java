@@ -78,3 +78,13 @@ Store the sums of the diceRoll and the user's inputs into their respective varia
         int sumOfRolls = roll1 + roll2 + roll3;
         System.out.println("Dice sum = " + sumOfRolls + ". Your number sum = " + sumOfNumbers);
 ```
+
+## Step 8:
+
+Create the checkWin() function to see who wins:
+
+```java
+public static boolean checkWin(int sumOfRolls, int sumOfNumbers) {
+        return (sumOfNumbers > sumOfRolls && (sumOfNumbers - sumOfRolls) < 3);  
+    }
+```
