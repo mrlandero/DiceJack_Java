@@ -88,3 +88,15 @@ public static boolean checkWin(int sumOfRolls, int sumOfNumbers) {
         return (sumOfNumbers > sumOfRolls && (sumOfNumbers - sumOfRolls) < 3);  
     }
 ```
+
+## Step 9:
+
+Write an if-else statement to display to the user whether they won or lost:
+
+```java
+        if (checkWin(sumOfRolls, sumOfNumbers)) {
+            System.out.println("Congrats! You win!");
+        } else {
+            System.out.println("Sorry! You lose!");
+        }
+```
